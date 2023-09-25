@@ -25,6 +25,9 @@ The loop runs to determine x, y, theta at all instances, and x, y are plotted in
 
 The code outputs the path travelled in a XY-Plane
 
+![Result_1_plot](https://github.com/ruthwikdasyam/Kinematic_Modelling/assets/63036454/c86a6b89-4bff-46c5-9b9b-bf0342d7331a)
+
+
 # ENPM662_HW1
 the kinematics equations for a 3-DOF manipulator
 sympy library is used to perfrom derivatives
@@ -37,6 +40,11 @@ Considering Robot with 3 links connected by revolute and prismatic joints with t
 
 The values for x, y, θ in terms of l1, l2, l3, θ1, θ2, θ3 is obtained in the documentation provided
 This is given as input, and calculated x_dot, y_dot, θ_dot, differentiation wrt time t
+
+![Result_2_Matrix_A](https://github.com/ruthwikdasyam/Kinematic_Modelling/assets/63036454/6e4c5151-bb31-4e09-8da1-a0f078109e92)
+
+
+![Result_2_Matrix_A_Inverse](https://github.com/ruthwikdasyam/Kinematic_Modelling/assets/63036454/27431c18-55fd-4fa4-996e-a92ac37df470)
 
 The obtained values from this calculation is further written in matrix form and factorized to get the matrix equation in terms of l1_dot, θ1_dot, θ3_dot
 This is named as matrix A
